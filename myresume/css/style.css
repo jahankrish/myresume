@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: auto;
+  border: 5px solid #000000;
+}
+.box {
+  width: 90%;
+  background-color: blue;
+  color: #fff;
+  margin: 25px auto;
+  text-align: center;
+  font-size: 24px;
+}
+header {
+  width: 90%;
+  margin: auto;
+  padding: 25px 25px;
+}
+.header-left {
+  display: inline;
+  position: relative;
+}
+.header-right {
+  float: right;
+  position: absolute;
+  top: 120px;
+  right: 200px;
+}
+.header-right img {
+  width: 250px;
+  height: 250px;
+}
+header .name {
+  font-size: 20px;
+  line-height: 2;
+  color: #000000;
+}
+header .address {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: bold;
+}
+.objective p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  text-align: justify;
+}
+.educational table {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+thead {
+  font-size: 24px;
+}
+tbody {
+  font-size: 18px;
+  font-weight: bold;
+}
+.objective,
+.educational,
+.techinical,
+.projects,
+.strengths,
+.personal,
+.footer {
+  width: 90%;
+  margin: auto;
+  padding: 25px 25px;
+}
+ul {
+  font-size: 18px;
+  line-height: 3;
+  padding: 25px 25px;
+}
+ul li {
+  font-weight: bold;
+}
+.projects > h3 {
+  line-height: 4;
+  font-size: 18px;
+}
+.description > h3 {
+  font-size: 18px;
+  line-height: 3;
+}
+.description > p {
+  font-size: 18px;
+  line-height: 3;
+}
+.strengths ul li {
+  line-height: 4;
+  font-size: 18px;
+}
+.personal table {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 4;
+  width: 50%;
+}
+.footer p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.left {
+  display: inline-block;
+  padding: 25px;
+  line-height: 3;
+}
+.right {
+  float: right;
+  padding: 25px;
+  line-height: 3;
+}
